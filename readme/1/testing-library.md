@@ -26,6 +26,8 @@ describe('add 함수', () => {
 })
 ```
 
+***
+
 #### React Testing Library
 
 React UI테스트에 특화된 라이브러리이다. F/E 테스트시, React 컴포넌트 테스트만 테스트 하는 상황은 최대한 피하는게 좋다.
