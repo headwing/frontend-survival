@@ -8,7 +8,7 @@
 * 코드를 수정할 때마다 서버를 재실행하는 문제를 피하기 위해 nodemon 사용할 것.
 
 ```
-// 간단한 서버 앱 npm 패키지 세팅
+// 간단한 서버 앱 npm 패키지 세팅하는 법
 mkdir express-demo-app
 cd mkdir express-demo-app
 
