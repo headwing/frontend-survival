@@ -7,7 +7,27 @@
 * 타입스크립트로 작성한 것을 node로 바로 컴파일하기 위해 ts-node로 실행할 것.
 * 코드를 수정할 때마다 서버를 재실행하는 문제를 피하기 위해 nodemon 사용할 것.
 
+```
+// 간단한 서버 앱 npm 패키지 세팅
+mkdir express-demo-app
+cd mkdir express-demo-app
 
+touch .gitignore
+echo "/node_modules/" > .gitignore
+
+npm init -y
+
+npm i -D typescript
+npx tsc --init
+
+npm i -D eslint
+npx eslint --init
+
+npm i -D ts-node
+
+npm i express
+npm i -D @types/express
+```
 
 #### URL 구조
 
