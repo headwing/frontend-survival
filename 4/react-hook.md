@@ -79,8 +79,6 @@ Hooks 는 리액트 v16.8 에 새로 도입된 기능으로서, 함수형 컴포
 
 {% embed url="https://merrily-code.tistory.com/46" %}
 
-
-
 #### React StrictMode&#x20;
 
 \<React.StrictMode>로 컴포넌트 전체를 감쌀 경우, 예상치 못한 Side Effect를 찾으려고 Effect 등을 두 번씩 실행함. 평소에는 큰 문제가 없지만, API 등을 사용하면 이상하다고 느낄 수 있으니 참고할 것.
