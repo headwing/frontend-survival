@@ -6,6 +6,7 @@
   * [React](1/react.md)
   * [Testing Library](1/testing-library.md)
   * [Parcel & ESLint](1/parcel-and-eslint.md)
+* [2주차](2.md)
 * [4주차](4.md)
   * [Express](4/express.md)
   * [Fetch API & CORS](4/fetch-api-and-cors.md)
