@@ -61,7 +61,7 @@ Hooks 는 리액트 v16.8 에 새로 도입된 기능으로서, 함수형 컴포
 
     \- `useLayoutEffect`의 이펙트는 DOM이 화면에 그려지기 전에 호출된다.
 
-    \-  따라서 렌더링할 state가 이펙트 내에서 초기화되어야 할 경우, 사용자 경험을 위해 `useLayoutEffect`를 활용하자!\
+    \-  따라서 렌더링할 상태(state)가 이펙트 내에서 초기화되어야 할 경우, 사용자 경험을 위해 `useLayoutEffect`를 활용하자!\
 
 
 {% embed url="https://merrily-code.tistory.com/46" %}
