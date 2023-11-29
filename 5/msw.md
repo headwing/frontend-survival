@@ -25,3 +25,5 @@ import 'whatwg-fetch'
 
 window.fetch(...)
 ```
+
+{% embed url="https://velog.io/@ahn0min/Node.js-fetch-%EC%82%AC%EC%9A%A9%ED%95%98%EA%B8%B0" %}
