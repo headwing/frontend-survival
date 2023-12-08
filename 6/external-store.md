@@ -6,14 +6,16 @@ Layered Architecture는 소프트웨어 개발에서 가장 일반적으로 널�
 
 각 계층은 어플리케이션 내에서의 특정 역할과 관심사(화면 표시, 비즈니스 로직 수행, DB 작업 등)별로 구분된다. 이는 Layered Architecture 의 강력한 기능인 **관심사의 분리 (Separation of Concern)** 를 의미한다. 특정 계층의 구성요소는 해당 계층에 관련된 기능만 수행한다. 이런 특징은 높은 유지보수성과 쉬운 테스트라는 장점이 존재한다.
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+
 
 ## Flux Architecture
 
 * 대규모 애플리케이션에서 데이터 흐름을 일관성 있게 관리함으로써 프로그램의 예측가능성을 높이기 위해 등장
 * 기존의 MVC 패턴 : Model에 데이터를 저장하고, Controller를 이용하여 Model의 데이터를 관리(CRUD)한다. Model의 데이터가 변경되면 View로 전달되어 사용자에게 보여진다. 또한 중요한 점은 사용자가 View를 통해 데이터를 입력하면 View 역시 Model을 업데이트할 수 있다는 점이다. 즉 데이터가 양방향으로 흐를 수 있다는 것이다. 이 과정에서 Model의 개수가 많아질수록 많은 의존성을 갖게 되어, 각 Model에서 발생한 이벤트가 애플리케이션 전체로 퍼져나갈 때 이를 예측하기 힘들어진다.
 
-<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 * Flux는 사용자 입력을 기반으로 Action을 만들고 Action을 Dispatcher에 전달하여 Store(Model)의 데이터를 변경한 뒤 View에 반영하는 단방향의 흐름으로 애플리케이션을 만드는 아키텍처입니다.
 
