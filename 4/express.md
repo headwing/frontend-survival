@@ -32,7 +32,7 @@ npm i -D @types/express
 
 #### URL 구조
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 * Scheme(=Protocol) : 브라우저가 리소스를 요청하기 위해 사용해야 하는 프로토콜\
   \- HTTP\
