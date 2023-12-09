@@ -21,4 +21,4 @@ function App() {
 ```
 {% endcode %}
 
-Location은 객체가 연결된 장소(URL)를 표현한다. 속성 중 pathname은(Location.pathname) '/' 문자 뒤 URL의 경로를 값으로 하는 문자열이다.
+Location은 객체가 연결된 장소(URL)를 표현한다. 다양한 속성 중 pathname은(Location.pathname) '/' 문자 뒤 URL의 경로를 값으로 하는 문자열이다.
