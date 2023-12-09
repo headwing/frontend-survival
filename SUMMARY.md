@@ -32,4 +32,5 @@
   * [Routes](7/routes.md)
   * [Router](7/router.md)
   * [Navigation](7/navigation.md)
-* [8주차](8.md)
+* [8주차](8/README.md)
+  * [Design System](8/design-system.md)
