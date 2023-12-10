@@ -96,6 +96,41 @@ All [data router](https://reactrouter.com/en/main/routers/picking-a-router) obje
 
 
 
+## createMemoryRouter
+
+Instead of using the browser's history, a memory router manages its own history stack in memory. It's primarily useful for testing and component development tools like Storybook, but can also be used for running React Router in any non-browser environment.&#x20;
+
+* 메모리 라우터 만들어서 테스트
+
+```javascript
+describe('routes', () => {	
+	function renderRouter(path: string) {
+		const router = createMemoryRouter(routes, { initialEntries: [path] });
+		render(<RouterProvider router={router} />);
+	}
+	
+	context('when the current path is “/”', () => {
+		it('renders the home page', () => {
+			renderRouter('/');
+	
+			screen.getByText(/Hello/);
+		});
+	});
+	
+	context('when the current path is “/about”', () => {
+		it('renders the about page', () => {
+			renderRouter('/about');
+	
+			screen.getByText(/About/);
+		});
+	});
+});
+```
+
+
+
 {% embed url="https://reactrouter.com/en/main/routers/create-browser-router#createbrowserrouter" %}
+
+{% embed url="https://reactrouter.com/en/main/routers/create-memory-router" %}
 
 {% embed url="https://reactrouter.com/en/main/routers/router-provider" %}
