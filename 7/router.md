@@ -84,12 +84,18 @@ root.render((
 
 
 
+## createBrowserRouter
+
+This is the recommended router for all React Router web projects. It uses the [DOM History API](https://developer.mozilla.org/en-US/docs/Web/API/History) to update the URL and manage the history stack.
+
+
+
 ## RouterProvider
 
 All [data router](https://reactrouter.com/en/main/routers/picking-a-router) objects are passed to this component to render your app and enable the rest of the data APIs.
 
 
 
-## createBrowserRouter
+{% embed url="https://reactrouter.com/en/main/routers/create-browser-router#createbrowserrouter" %}
 
-This is the recommended router for all React Router web projects. It uses the [DOM History API](https://developer.mozilla.org/en-US/docs/Web/API/History) to update the URL and manage the history stack.
+{% embed url="https://reactrouter.com/en/main/routers/router-provider" %}
