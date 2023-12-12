@@ -34,3 +34,5 @@ const BlueText = styled.p`
 ### CSS
 
 css 파일과 js 파일 로딩의 차이가 있기 때문에 성능 이슈가 있다. css를 js 안에 작성하면 컴포넌트 파일을 하나로 유지하면서 기능과 스타일을 같이 관리할 수 있다는 장점이 있다.
+
+{% embed url="https://hyeonseok.com/blog/877" %}
