@@ -34,3 +34,8 @@
   * [Navigation](7/navigation.md)
 * [8주차](8/README.md)
   * [Design System](8/design-system.md)
+  * [Style Basics](8/style-basics.md)
+  * [CSS in JS](8/css-in-js.md)
+  * [styled-components](8/styled-components.md)
+  * [props와 attrs](8/props-attrs.md)
+  * [Global Style & Theme](8/global-style-and-theme.md)
