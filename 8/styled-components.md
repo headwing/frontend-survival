@@ -24,7 +24,7 @@ export default function Greeting() {
 }
 ```
 
-기존 컴포넌트에 스타일을 입히는 것도 가능. 단, 기존 컴포넌트가 Class를 잡아줘야 한다는 점에 주의하자.
+기존 컴포넌트에 스타일을 입히는 것도 가능. 단, 기존 컴포넌트가 className 잡아줘야 한다는 점에 주의하자.
 
 ```javascript
 import styled from 'styled-components';
